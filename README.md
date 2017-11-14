@@ -2,7 +2,7 @@
 
 - Go to cmd line or terminal
 - run `git clone git@github.com:samiralnasser/ISDP.git`
-- cd to project dir, run `cd `ISDP
+- cd to project dir by running `cd ISDP`
 - run `yarn`
 - run `yarn start`
 

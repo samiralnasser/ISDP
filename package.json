@@ -1,19 +1,34 @@
 {
   "name": "isdp",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samiralnasser/ISDP.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samiralnasser/ISDP/issues"
+  },
+  "homepage": "https://github.com/samiralnasser/ISDP#readme",
   "dependencies": {
     "firebase": "^4.6.2",
+    "material-ui": "^0.19.4",
+    "next": "^4.1.4",
     "react": "^16.1.1",
-    "react-dom": "^16.1.1"
+    "react-dom": "^16.1.1",
+    "react-radial-gauge": "^0.1.0",
+    "react-tap-event-plugin": "^3.0.2"
   },
   "devDependencies": {
-    "react-scripts": "1.0.17"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "babel-preset-stage-1": "^6.24.1"
   }
 }

@@ -1,9 +1,9 @@
+import { Component } from 'react'
 import AppBar from 'material-ui/AppBar';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import MaterialUI from '../component/MaterialUI'
 import firebase from 'firebase'
-import Gauge from 'react-radial-gauge';
-
+import Gauge from '../component/gauge';
 
 try {
     injectTapEventPlugin()
@@ -21,37 +21,75 @@ var config = {
     messagingSenderId: "195263147810"
 };
 
-if (!firebase.apps.length) {
-    firebase.initializeApp({});
+if (firebase.apps.length === 0) {
+    firebase.initializeApp(config);
 }
-const AppBarExampleIcon = () => (
-    <MaterialUI>
-        <style jsx>{`
-              h1 {
-                font-family: 'Avenir';
-                font-size: 100px;
-                text-align: center;
-              }
-            `}
-        </style>
-        <AppBar
-            title="Intl Sensors Development Project"
-            iconClassNameRight="muidocs-icon-navigation-expand-more"
-        />
-        <div>
 
-            <h1>NOW</h1>
-        </div>
+const CustomGuage = (props) => (
+    <Gauge
+        size={300}
+        maximumValue={130}
+        dialWidth={9}
+        progressRotation={-45}
+        progressWidth={18}
+        progressFontSize={60}
+        progressFontUnits="&#176;C"
+        progressColor="rgba(95, 103, 142, 1)"
+        {...props}
+    />
+)
 
-        <div>
-            <div>
-                <Gauge currentValue={78}/>
-            </div>
-            <div><Gauge currentValue={58}/></div>
-            <div><Gauge currentValue={23}/></div>
-        </div>
-    </MaterialUI>
-);
+class Home extends Component {
+    constructor(props) {
+        super(props)
+        this.state = {
+            temperature: 0,
+            humidity: 0,
+            dustParticles: 0
+        }
+    }
 
-export default AppBarExampleIcon
+    componentWillMount() {
+        const db = firebase.database()
+        db.ref('temperature').on('value', (snapshot) => {
+            this.setState({ temperature: snapshot.val() })
+        })
+        db.ref('humidity').on('value', (snapshot) => {
+            this.setState({ humidity: snapshot.val() })
+        })
+        db.ref('dustParticles').on('value', (snapshot) => {
+            this.setState({ dustParticles: snapshot.val() })
+        })
+    }
 
+    render() {
+        return (
+            <MaterialUI>
+                <div>
+                    <AppBar
+                        title="Intl Sensors Development Project"
+                        iconClassNameRight="muidocs-icon-navigation-expand-more"
+                    />
+                    <div>
+
+                        <h1>NOW</h1>
+                    </div>
+
+                    <div>
+                        <div>
+                            <CustomGuage currentValue={this.state.temperature} />
+                        </div>
+                        <div>
+                            <CustomGuage currentValue={this.state.humidity} />
+                        </div>
+                        <div>
+                            <CustomGuage currentValue={this.state.dustParticles} />
+                        </div>
+                    </div>
+                </div>
+            </MaterialUI>
+        )
+    }
+}
+
+export default Home

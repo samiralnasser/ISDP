@@ -164,7 +164,7 @@ export default class Gauge extends Component {
     });
 
     return (
-      <div className={opts.className}>
+      <div className={opts.className} style={opts.style}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className={opts.className}

@@ -3,7 +3,9 @@ import AppBar from 'material-ui/AppBar';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import MaterialUI from '../component/MaterialUI'
 import firebase from 'firebase'
+import firebaseConfig from '../config/firebaseConfig'
 import Gauge from '../component/gauge';
+import styles from '../styles/IndexStyles'
 
 try {
     injectTapEventPlugin()
@@ -12,28 +14,19 @@ catch(e) {
     //Don't do anything
 }
 
-var config = {
-    apiKey: "AIzaSyBCvx1WFPYOutNvj8Hfmu_jTuxoWEQvPHc",
-    authDomain: "isdp-954b3.firebaseapp.com",
-    databaseURL: "https://isdp-954b3.firebaseio.com",
-    projectId: "isdp-954b3",
-    storageBucket: "isdp-954b3.appspot.com",
-    messagingSenderId: "195263147810"
-};
-
 if (firebase.apps.length === 0) {
-    firebase.initializeApp(config);
+    firebase.initializeApp(firebaseConfig);
 }
 
 const CustomGuage = (props) => (
     <Gauge
+        style={styles.gauge}
         size={300}
         maximumValue={130}
         dialWidth={9}
         progressRotation={-45}
         progressWidth={18}
-        progressFontSize={60}
-        progressFontUnits="&#176;C"
+        progressFontSize={40}
         progressColor="rgba(95, 103, 142, 1)"
         {...props}
     />
@@ -45,7 +38,8 @@ class Home extends Component {
         this.state = {
             temperature: 0,
             humidity: 0,
-            dustParticles: 0
+            dustParticles: 0,
+            pressure: 0
         }
     }
 
@@ -60,6 +54,9 @@ class Home extends Component {
         db.ref('dustParticles').on('value', (snapshot) => {
             this.setState({ dustParticles: snapshot.val() })
         })
+        db.ref('pressure').on('value', (snapshot) => {
+            this.setState({ pressure: snapshot.val() })
+        })
     }
 
     render() {
@@ -71,20 +68,22 @@ class Home extends Component {
                         iconClassNameRight="muidocs-icon-navigation-expand-more"
                     />
                     <div>
-
-                        <h1>NOW</h1>
+                        <h1 style={styles.heading}>NOW</h1>
                     </div>
 
-                    <div>
-                        <div>
-                            <CustomGuage currentValue={this.state.temperature} />
+                    <div style={styles.gaugeContainer}>
+                        <div style={{ display: 'inline-block' }}>
+                            <h3>Temperature</h3>
+                            <CustomGuage currentValue={this.state.temperature} progressFontUnits="&#176;C"/>
                         </div>
-                        <div>
-                            <CustomGuage currentValue={this.state.humidity} />
+                        <div style={{ display: 'inline-block' }}>
+                            <h3>Humidity</h3>
+                            <CustomGuage currentValue={this.state.humidity} progressFontUnits="%"/>
                         </div>
-                        <div>
-                            <CustomGuage currentValue={this.state.dustParticles} />
-                        </div>
+                    </div>
+                    <div style={styles.gaugeContainer}>
+                        <CustomGuage currentValue={this.state.dustParticles} progressFontUnits="&#176;C" />
+                        <CustomGuage currentValue={this.state.pressure} progressFontUnits="mm/Hg" />
                     </div>
                 </div>
             </MaterialUI>

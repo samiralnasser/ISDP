@@ -4,6 +4,13 @@ export default {
     heading: {
         fontFamily: Fonts.type.base,
         fontSize: 80,
+        textAlign: 'center',
+        marginBottom: 10
+    },
+    subHeading: {
+        fontFamily: Fonts.type.base,
+        fontSize: 20,
+        color: 'grey',
         textAlign: 'center'
     },
     gaugeContainer: {

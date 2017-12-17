@@ -3119,6 +3119,10 @@ moment@^2.11.2:
   version "2.19.2"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.19.2.tgz#8a7f774c95a64550b4c7ebd496683908f9419dbe"
 
+moment@^2.20.0:
+  version "2.20.0"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.20.0.tgz#53396358994dd3a551e966a66af715ecb6c30ad0"
+
 ms@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
@@ -3803,29 +3807,11 @@ react-liquid-gauge@^1.2.4:
     d3-transition "^1.1.0"
     prop-types "^15.5.8"
 
-"react-liquid-gauge@https://github.com/MariaSyed/react-liquid-gauge.git":
-  version "1.2.4"
-  resolved "https://github.com/MariaSyed/react-liquid-gauge.git#c8b24bd48a504539e25553a66097466f75917af6"
-  dependencies:
-    d3-color "^1.0.2"
-    d3-ease "^1.0.2"
-    d3-interpolate "^1.1.5"
-    d3-scale "^1.0.6"
-    d3-selection "^1.1.0"
-    d3-shape "^1.2.0"
-    d3-timer "^1.0.3"
-    d3-transition "^1.1.0"
-    prop-types "^15.5.8"
-
 react-proxy@^3.0.0-alpha.0:
   version "3.0.0-alpha.1"
   resolved "https://registry.yarnpkg.com/react-proxy/-/react-proxy-3.0.0-alpha.1.tgz#4400426bcfa80caa6724c7755695315209fa4b07"
   dependencies:
     lodash "^4.6.1"
-
-react-radial-gauge@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/react-radial-gauge/-/react-radial-gauge-0.1.0.tgz#d302b4a593eb5cf93a8190f234b0af6651cd640c"
 
 react-tap-event-plugin@^3.0.2:
   version "3.0.2"

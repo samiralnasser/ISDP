@@ -1,4 +1,5 @@
 import { Component } from 'react'
+import moment from 'moment'
 import firebase from 'firebase'
 import firebaseConfig from '../config/firebaseConfig'
 
@@ -34,23 +35,24 @@ class Home extends Component {
             temperature: 0,
             humidity: 0,
             dustParticles: 0,
-            pressure: 0
+            pressure: 0,
+            timestamp: ''
         }
     }
 
     componentDidMount() {
         const db = firebase.database()
-        db.ref('temperature').on('value', (snapshot) => {
-            this.setState({ temperature: snapshot.val() })
-        })
-        db.ref('humidity').on('value', (snapshot) => {
-            this.setState({ humidity: snapshot.val() })
-        })
-        db.ref('dustParticles').on('value', (snapshot) => {
-            this.setState({ dustParticles: snapshot.val() })
-        })
-        db.ref('pressure').on('value', (snapshot) => {
-            this.setState({ pressure: snapshot.val() })
+        db.ref('variables').on('value', (snapshot) => {
+            const values = snapshot.val()
+            if (values) {
+                this.setState({
+                    temperature: values.temperature,
+                    humidity: values.humidity,
+                    pressure: values.pressure,
+                    dustParticles: values.dustParticles,
+                    timestamp: values.timestamp
+                })
+            }
         })
     }
 
@@ -65,6 +67,7 @@ class Home extends Component {
                     />
                     <div>
                         <h1 style={styles.heading}>Real Time Updates</h1>
+                        <h2 style={styles.subHeading}>Last updated: {moment(this.state.timestamp).format('kk:mm:ss DD/MM/YYYY')}</h2>
                     </div>
 
                     <div style={styles.gaugeContainer}>

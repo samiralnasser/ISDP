@@ -2,78 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75e6f3e8-83a3-42d7-8798-63fd047550a4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/component/LiquidGauge.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/Fonts.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.next/5.edec4bd1c8146fa0f2b9.hot-update.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.next/dist/component/gauge.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.next/edec4bd1c8146fa0f2b9.hot-update.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/component/gauge.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/05fffd7b71b4ed25f7ea45e1362526e21a146fcf.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/0d67e113e7ea4d1bd97562cb2dc8e356257e0917.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/10d55c6a122ce31282992584017fd07e1d9f5e83.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/15f6fba184c3d2b4c42a6d5462f1af2d1ce533dc.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/1af4866ad043d0ad3f084ae83dad66969b49b777.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/1c4da4e074a44c4b581b786c3253dc7ef203b028.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/1e16458c229a147176ad0d7fb1acf3c9e4855415.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/1edc48e433afc313cd0dde925923b97847b26bcd.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/26f59a846e23dca08b7eca847bbb0d90bebaadcd.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/31b0ff1c3ec1dd1928b320c88b8460e29029702b.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/3888fc3984b333a5ab7cb02630d49be5fe812e43.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/3b8ad93e81d81d2c3965cec263bd9dc37a57c077.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/3d3b2fa6a9eb02bf362764530b4ecb5bc21aca98.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/3dea16649e14fbede3f12faed04d21a9c5afecdb.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/3ff503a617e7085dd6117cab179eb27815b66a00.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/4bbea20f4e149d82f512cd94f461ae768bcca183.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/50d2518d9fe07094efac441294150ea9416e4dbd.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/53c0cef88f2d268b1d033592c5a80b2157298b32.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/5bde7c31ee303d37c928374be001662fdb757c4d.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/5ccc02dac6eaa3ba2132dee5da267758dec0c421.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/6cddfecfcd947c4082470a1b73c18bfca4572fc0.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/7d91c96232bb36bafebfc7ae8e12dbb2b9d2b4c0.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/81ca2e64ffc4cdab49b29b3f79b6655fbe418546.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/8208b59b2944598d63c960eba4d1be889b54e473.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/8c9317c06deccc4b044f0180b23cf138998e75d0.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/9366697e592c2f054f05e29c666d302836ebbb2a.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/94c95aa5ac6131cbd1a5ef417e23ca55078a25a9.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/9a182ea75078e94539ac4168abd91c717dc089a8.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/9f5fbcae2b8ea23f2cbf0a81b846ebeb53c31665.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/ac68958efdcf8d483452905c09362ae60e50f87e.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/af18417a092512dc203f6742fcd77269f3606a7b.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b188cdc99a4565e9231d3d561dbd473a75f4779b.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b3c04dbd104e6dba78b0c82cd8eb72c337c507f5.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b85c063fda0fc73b8a1ea9344444951483d22054.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/bad476fd5d982491a79da658b7642f059baa08c5.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/bef29596a9d7547b7523400c66f134db22464f37.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/c15e11b1a27a4aad6227bb9f1439977bb3c21c24.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/d6511e3e2898f5d45e3ca1ab05e253b9daacee95.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/e1983756a7ce048c24ba5b699da6a9753e5a85d9.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/e30cf4e5499e55f73c3c0f54c3bf0446ab1c8c2c.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/e52344b20d71615a847293953ccde1644af5d567.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/ebf40dbc4088cf66075e5a60e01bb290de14a87c.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/f50d3d290e74ef1475b7a0225f736c7a64051586.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/f6923f79f52362bd1e1f75a74479ce0d58adaa27.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/f84efdac5dc7cd033b575dbc860ea4246eff12fa.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/fcb823640b9e7a920a9c20be605114f115ff3d29.json.gz" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.next/bundles/pages/_document.js" afterPath="$PROJECT_DIR$/.next/bundles/pages/_document.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.next/bundles/pages/_error.js" afterPath="$PROJECT_DIR$/.next/bundles/pages/_error.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.next/bundles/pages/index.js" afterPath="$PROJECT_DIR$/.next/bundles/pages/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.next/commons.js" afterPath="$PROJECT_DIR$/.next/commons.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.next/dist/component/MaterialUI.js" afterPath="$PROJECT_DIR$/.next/dist/component/MaterialUI.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.next/dist/config/firebaseConfig.js" afterPath="$PROJECT_DIR$/.next/dist/config/firebaseConfig.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.next/dist/pages/_document.js" afterPath="$PROJECT_DIR$/.next/dist/pages/_document.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.next/dist/pages/_error.js" afterPath="$PROJECT_DIR$/.next/dist/pages/_error.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.next/dist/pages/index.js" afterPath="$PROJECT_DIR$/.next/dist/pages/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.next/dist/styles/IndexStyles.js" afterPath="$PROJECT_DIR$/.next/dist/styles/IndexStyles.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.next/main.js" afterPath="$PROJECT_DIR$/.next/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.next/manifest.js" afterPath="$PROJECT_DIR$/.next/manifest.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/component/MaterialUI.js" afterPath="$PROJECT_DIR$/component/MaterialUI.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/index.js" afterPath="$PROJECT_DIR$/pages/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/IndexStyles.js" afterPath="$PROJECT_DIR$/styles/IndexStyles.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yarn.lock" afterPath="$PROJECT_DIR$/yarn.lock" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -97,7 +27,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
@@ -127,6 +57,16 @@
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -177,7 +117,6 @@
         <option value="$PROJECT_DIR$/node_modules/react-radial-gauge/webpack.config.js" />
         <option value="$PROJECT_DIR$/config/firebaseConfig.js" />
         <option value="$PROJECT_DIR$/component/gauge.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/pages/gauge.js" />
         <option value="$PROJECT_DIR$/themes/Fonts.js" />
         <option value="$PROJECT_DIR$/component/MaterialUI.js" />
@@ -185,6 +124,7 @@
         <option value="$PROJECT_DIR$/component/LiquidGauge.js" />
         <option value="$PROJECT_DIR$/styles/IndexStyles.js" />
         <option value="$PROJECT_DIR$/pages/index.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -193,9 +133,6 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="174" />
@@ -225,6 +162,16 @@
             <path>
               <item name="ISDP" type="b2602c69:ProjectViewProjectNode" />
               <item name="ISDP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ISDP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ISDP" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ISDP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ISDP" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -277,12 +224,12 @@
       <workItem from="1512405626470" duration="2836000" />
       <workItem from="1512413217266" duration="8000" />
       <workItem from="1513503858862" duration="4048000" />
-      <workItem from="1513518727945" duration="5512000" />
+      <workItem from="1513518727945" duration="5626000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29026000" />
+    <option name="totallyTimeSpent" value="29140000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="174" y="23" width="1506" height="928" extended-state="0" />
@@ -430,13 +377,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/firebaseConfig.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -473,11 +413,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/styles/IndexStyles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="638">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -491,21 +449,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/IndexStyles.js">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
